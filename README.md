@@ -66,7 +66,8 @@ Retrieves all products from the database.
 
 **Response:**
 
-![alt text](../screenshot/Get.png)
+![View All Products](screenshot/Get.png)
+
 ---
 
 ### 2. Add New Product
@@ -79,7 +80,7 @@ Retrieves all products from the database.
 - `200 OK` - Product added successfully
 - `409 CONFLICT` - Product already exists
 
-![alt text](../screenshot/post.png)
+![Add Product](screenshot/post.png)
 
 ---
 
@@ -94,7 +95,8 @@ Retrieves all products from the database.
 
 **Request Body:**
 
-![alt text](../screenshot/PUT.png)
+![Update Product](screenshot/PUT.png)
+
 **Responses:**
 - `200 OK` - Product updated successfully
 - `404 NOT FOUND` - Product not found
@@ -109,7 +111,8 @@ Retrieves all products from the database.
 **Responses:**
 - `200 OK` - Product deleted successfully
 - `404 NOT FOUND` - Product not found
-![alt text](../screenshot/delete.png)
+
+![Delete Product](screenshot/delete.png)
 
 ### 5. Search by Category
 
@@ -121,7 +124,8 @@ Retrieves all products from the database.
 **Responses:**
 - `200 OK` - Returns list of products in category
 - `404 NOT FOUND` - No products found in this category
-![alt text](<../screenshot/search category.png>)
+
+![Search by Category](screenshot/search%20category.png)
 
 ### 6. Find by Brand
 
@@ -138,13 +142,16 @@ GET /api/products/findByBrand?brand=Logitech
 **Responses:**
 - `200 OK` - Returns list of products by brand
 - `404 NOT FOUND` - No products found for this brand
-![alt text](<../screenshot/findbybrand .png>)
+
+![Find by Brand](screenshot/findbybrand%20.png)
 
 **The view in browser**
-![alt text](<../screenshot/the view in browser.png>)
+
+![View in Browser](screenshot/the%20view%20in%20browser.png)
 
 **The view in postman**
-![alt text](<../screenshot/the view in postman.png>)
+
+![View in Postman](screenshot/the%20view%20in%20postman.png)
 
 ## 📁 Project Structure
 
