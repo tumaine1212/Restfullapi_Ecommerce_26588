@@ -125,7 +125,7 @@ Retrieves all products from the database.
 - `200 OK` - Returns list of products in category
 - `404 NOT FOUND` - No products found in this category
 
-![Search by Category](screenshot/search%20category.png)
+![Search by Category](screenshot/search-category.png)
 
 ### 6. Find by Brand
 
@@ -143,15 +143,15 @@ GET /api/products/findByBrand?brand=Logitech
 - `200 OK` - Returns list of products by brand
 - `404 NOT FOUND` - No products found for this brand
 
-![Find by Brand](screenshot/findbybrand%20.png)
+![Find by Brand](screenshot/findbybrand.png)
 
 **The view in browser**
 
-![View in Browser](screenshot/the%20view%20in%20browser.png)
+![View in Browser](screenshot/the-view-in-browser.png)
 
 **The view in postman**
 
-![View in Postman](screenshot/the%20view%20in%20postman.png)
+![View in Postman](screenshot/the-view-in-postman.png)
 
 ## 📁 Project Structure
 
